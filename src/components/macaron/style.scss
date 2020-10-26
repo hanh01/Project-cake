@@ -1,0 +1,21 @@
+.title-cheesecake{
+  text-align: center;
+  font-size: 35px;
+  margin: 40px 0;
+}
+.site-card-wrapper{
+  margin: 20px 0;
+  .ant-card.ant-card-bordered.ant-card-hoverable{
+    width: 80% !important;
+    margin: 0 44px !important;
+    border-radius: 20px;
+  }
+  .logo-brand{
+    width: 100% !important;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 1px 1px 1px 1px gray;
+  }
+}
+
+

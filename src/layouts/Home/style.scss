@@ -1,0 +1,59 @@
+.ant-carousel .slick-slide {
+    text-align: center;
+    line-height: 160px;
+    overflow: hidden;
+    .img{
+      object-fit: cover;
+      width: 100%;
+      height: 500px;
+    }
+}
+.selling-products{
+   color: brown;
+   font-size: 40px;
+   margin: 50px 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+ }
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #5f9b88;
+    margin: 50px 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.site-card-wrapper{
+    margin: 20px 0;
+    .ant-card.ant-card-bordered.ant-card-hoverable{
+      width: 80% !important;
+      margin: 0 44px !important;
+      border-radius: 20px;
+    }
+    .logo-brand{
+      width: 100% !important;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      box-shadow: 1px 1px 1px 1px gray;
+    }
+}
+.ant-pagination{
+    float: right;
+    margin: 0 40px;
+}
+.add-to-cart{
+  float: right;
+  margin: 3px 60px;
+    .ant-btn{
+      background-color: black;
+      color: white;
+      height: 40px;
+    }
+  .ant-btn:hover{
+    border: 1px solid orange;
+    color: orange ;
+  }
+}
+.section{
+  background-color: black;
+  margin: 7px 0
+}

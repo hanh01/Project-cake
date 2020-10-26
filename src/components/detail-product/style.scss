@@ -1,0 +1,53 @@
+h1{
+  font-size: 20px;
+}
+.title-detail{
+  text-align: center;
+  font-size: 35px;
+  margin: 20px 0px 50px;
+  color: brown;
+}
+.img-product-detail{
+  margin-top: 40px;
+}
+.ant-table-cell{
+  text-align: center;
+  width: 300px;
+  .qty{
+    width: 54%;
+    margin: 0 57px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    .minus{
+      float: left;
+      width: 30%;
+      margin-top: 1.5px;
+      cursor: pointer;
+    }
+    .update-qty{
+      border: 1px solid black;
+      width: 32%;
+      float: left;
+      height: 30px;
+      margin: 0 2px;
+    }
+    .plus{
+      float: left;
+      width: 30%;
+      margin-top: 1.5px;
+      cursor: pointer;
+    }
+  }
+}
+.total{
+  font-size: 20px;
+  margin: 20px 20px;
+  color: red;
+}
+.detail{
+  margin: 30px 0px;
+  font-size: 23px;
+  color: green;
+}
+
